@@ -25,6 +25,9 @@
     background-color: rgb(190, 4, 4);
     color: black;
 }
+.logo {
+    padding-right: 600px;
+}
 #logo {
     height: 70px;
     width: auto;
@@ -179,4 +182,9 @@ h1,h2 {
 #voiture {
     height: 300px;
     width: auto;
+}
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
