@@ -2,15 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>Document</title>
 </head>
 <body>
     <!--header-->
     <div class="header" id="home">
-        <a href="#home"><img id="logo" src="logo2.png" alt="logo"></a>
+        <a href="#home"><img id="logo" src="logo2.PNG" alt="logo"></a>
         <img id="flag" src="flag.png" alt="tunisia-flag">
     </div>
     <!--contenu de la page-->
@@ -27,7 +28,7 @@
                 <input type="date" name="date1" id="date1"><br>
                 <input type="date" name="date2" id="date2"><br>
             </form>
-            <button class="search">Rechercher<i class="fa fa-search"></i></button>
+            <button class="search">Rechercher <i class="fa fa-search"></i></button>
         </div>
         <img src="voiture.jpg" alt="voiture">
     </div>
@@ -95,13 +96,31 @@
     </div>
     <h2>Quand réserver une voiture de location à Hammamet ?</h2>
     <img id="stat" src="stat.PNG" alt="statistique">
-    <!--map-->
-    <div class="map">
-        
-    </div>
+    
     <!--footer-->
     <div class="footer">
-
+        <form class="contact-form" action="">
+            <label for="nom"></label>
+            <input type="text" name="nom" id="nom" class="form-control" placeholder="Votre nom" required> 
+            <label for="prenom"></label>
+            <input type="text" name="prenom" id="prenom" class="form-control" placeholder="Votre prénom" required>
+            <label for="mail"></label>
+            <input type="email" name="mail" id="mail" class="form-control" placeholder="Votre adresse mail" required>
+            <label for="message"></label>
+            <textarea name="message" id="message" cols="30" rows="6" class="form-control" placeholder="Votre message...."></textarea>
+            <button class="button">Envoyer</button>
+        </form>
+        <div class="social-media"> 
+            <div class="block1">
+                <a href=""><i class="fab fa-facebook-square"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="block2">
+                <a href="#home"><i class="far fa-arrow-alt-circle-up"></i></a>
+            </div>
+            
+        </div>
+        
     </div>
 </body>
 </html>

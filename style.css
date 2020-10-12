@@ -28,7 +28,7 @@
 }
 .footer {
     background-color: #242222;
-    height: 100px;
+    height: 600px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -68,7 +68,8 @@ input, textarea, select, button {
 }
   
 .card button:hover {
-    opacity: 0.7;
+    background-color: rgb(155, 207, 255);
+    color: black;
 }
 .category {
     display: flex;
@@ -114,4 +115,48 @@ h1,h2 {
 }
 #stat {
     padding-left: 400px;
+    padding-bottom: 50px;
+}
+#map {
+    width: 850px;
+    height: 400px;
+    padding-left: 210px;
+}
+.contact-form {
+    width: 400px;
+    padding-top: 20px;
+    padding-left: 350px;
+    transition: all 4s ease-in-out; 
+}
+.form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    font-size: 15px;
+    color: white;   
+}
+.form-control:focus {
+    background-color: grey;
+    color: black;
+}
+.button:hover {
+    background-color: grey;
+    border: none;
+    border-radius: 7px;   
+    color: black;
+}
+.button {
+    width: 150px;
+    margin-left: 210px;
+    height: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.social-media {
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 30px;
+    color: red;
 }
