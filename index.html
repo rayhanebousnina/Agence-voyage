@@ -6,18 +6,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <title>Document</title>
+    <title>Carhabti.tn</title>
 </head>
 <body>
     <!--header-->
-    <div class="header" id="home">
-        <a href="#home"><img id="logo" src="logo2.PNG" alt="logo"></a>
+    <a class="logo" href="#home"><img id="logo" src="logo2.PNG" alt="logo"></a>
+    <div class="header" id="home">        
+        <a href="#category">Catégorie</a>
+        <a href="#information">Information</a>
+        <a href="#contact">Contact</a>
         <img id="flag" src="flag.png" alt="tunisia-flag">
     </div>
     <!--contenu de la page-->
+    <h1 class="titre">Bienvenue à Carhabti.tn <br> Agence de location des voitures en Tunisie</h1><br>
     <div class="container">
-        <div class="welcome">
-            <h1>Bienvenue à Carhabti <br> Site de location des voitures en Tunisie</h1><br>
+        <div class="welcome">            
             <select id="country" name="country">
                 <option value="Tunis">Tunis</option>
                 <option value="Hammamet">Hammamet</option>
@@ -30,57 +33,57 @@
             </form>
             <button class="search">Rechercher <i class="fa fa-search"></i></button>
         </div>
-        <img src="voiture.jpg" alt="voiture">
+        <img id="voiture" src="index.jpeg" alt="voiture">
     </div>
     <!--categorie-->
     <h1>Voitures de location disponibles</h1>
-    <div class="category">
+    <div class="category" id="category">
         <div class="card">
-            <img src="jeans3.jpg" alt="Denim Jeans" style="width:100%">
-            <h1>Tailored Jeans</h1>
-            <p class="price">$19.99</p>
-            <p>Some text about the jeans..</p>
-            <p><button>Add to Cart</button></p>
+            <img src="kia.png" alt="Kia" style="width:100%">
+            <h1>Kia Picanto</h1>
+            <p class="price">70dt/jour</p>
+            <p>2 adultes, 2 bagages</p>
+            <p><button>Voir l'offre</button></p>
         </div>
         <div class="card">
-            <img src="jeans3.jpg" alt="Denim Jeans" style="width:100%">
-            <h1>Tailored Jeans</h1>
-            <p class="price">$19.99</p>
-            <p>Some text about the jeans..</p>
-            <p><button>Add to Cart</button></p>
+            <img src="polo7.jpg" alt="polo" style="width:100%;">
+            <h1>Polo 7</h1>
+            <p class="price">75dt/jour</p>
+            <p>2 adultes, 2 bagages</p>
+            <p><button>Voir l'offre</button></p>
         </div>
         <div class="card">
-            <img src="jeans3.jpg" alt="Denim Jeans" style="width:100%">
-            <h1>Tailored Jeans</h1>
-            <p class="price">$19.99</p>
-            <p>Some text about the jeans..</p>
-            <p><button>Add to Cart</button></p>
+            <img src="Chevrolet-Sonic-.jpg" alt="Chevrolet-sonic" style="width:100%">
+            <h1>Chevrolet Sonic</h1>
+            <p class="price">80dt/jour</p>
+            <p>4 adultes, 3 bagages</p>
+            <p><button>Voir l'offre</button></p>
         </div>
         <div class="card">
-            <img src="jeans3.jpg" alt="Denim Jeans" style="width:100%">
-            <h1>Tailored Jeans</h1>
-            <p class="price">$19.99</p>
-            <p>Some text about the jeans..</p>
-            <p><button>Add to Cart</button></p>
+            <img src="fiat.jpg" alt="Fiat-500" style="width:100%">
+            <h1>Fiat 500</h1>
+            <p class="price">65dt/jour</p>
+            <p>2 adultes, 2 bagages</p>
+            <p><button>Voir l'offre</button></p>
         </div>
         <div class="card">
-            <img src="jeans3.jpg" alt="Denim Jeans" style="width:100%">
-            <h1>Tailored Jeans</h1>
-            <p class="price">$19.99</p>
-            <p>Some text about the jeans..</p>
-            <p><button>Add to Cart</button></p>
+            <img src="symbole.jpg" alt="Symbole-renault" style="width:100%">
+            <h1>Renault Symbole</h1>
+            <p class="price">65dt/jour</p>
+            <p>4 adultes, 2 bagages</p>
+            <p><button>Voir l'offre</button></p>
         </div>
         <div class="card">
-            <img src="jeans3.jpg" alt="Denim Jeans" style="width:100%">
-            <h1>Tailored Jeans</h1>
-            <p class="price">$19.99</p>
-            <p>Some text about the jeans..</p>
-            <p><button>Add to Cart</button></p>
+            <img src="h.jpeg" alt="Citroen-c5" style="width:100%">
+            <h1>Citroen C5</h1>
+            <p class="price">85dt/jour</p>
+            <p>4 adultes, 3 bagages</p>
+            <p><button>Voir l'offre</button></p>
         </div>
     </div>
     <!--informations-->
     <h1>Bon à savoir</h1>
-    <div class="information">
+    <div class="information" id="information">
         <div class="box">
             <h3>Catégorie la plus populaire</h3><br>
             <h4>Economique</h4>
@@ -99,7 +102,7 @@
     
     <!--footer-->
     <div class="footer">
-        <form class="contact-form" action="">
+        <form class="contact-form" action="" id="contact">
             <label for="nom"></label>
             <input type="text" name="nom" id="nom" class="form-control" placeholder="Votre nom" required> 
             <label for="prenom"></label>
@@ -112,11 +115,11 @@
         </form>
         <div class="social-media"> 
             <div class="block1">
-                <a href=""><i class="fab fa-facebook-square"></i></a>
-                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-facebook-square sm"></i></a>
+                <a href=""><i class="fab fa-instagram sm"></i></a>
             </div>
             <div class="block2">
-                <a href="#home"><i class="far fa-arrow-alt-circle-up"></i></a>
+                <a href="#home"><i class="far fa-arrow-alt-circle-up sm"></i></a>
             </div>
             
         </div>

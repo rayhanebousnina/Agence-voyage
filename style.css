@@ -1,16 +1,29 @@
 .header {
     position: relative;
     display: flex;    
-    background-color: #242222;    
-    height: 90px;   ;
+    background-color: #242222;   
+    color: rgb(238, 124, 124); 
+    height: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
-    justify-content: space-between;
+    justify-content: flex-end;
     position: -webkit-sticky;    
     position: sticky;
     top: 0;
     z-index: 1;
+}
+.header a {
+    text-decoration: none;
+    padding: 35px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.header a:hover {
+    background-color: rgb(190, 4, 4);
+    color: black;
 }
 #logo {
     height: 70px;
@@ -48,13 +61,11 @@ input, textarea, select, button {
     margin-bottom: 30px;
     text-align: center;
     font-family: arial;
-  }
-  
+}
 .price {
     color: grey;
     font-size: 22px;
-}
-  
+}  
 .card button {
     border: none;
     outline: 0;
@@ -65,8 +76,7 @@ input, textarea, select, button {
     cursor: pointer;
     width: 89%;
     font-size: 18px;
-}
-  
+}  
 .card button:hover {
     background-color: rgb(155, 207, 255);
     color: black;
@@ -82,15 +92,19 @@ h1,h2 {
     padding: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.titre {
+    font-size: 40px;
+    font-weight: bold;
+}
 .search {
     color: white;
     background-color: #000;
     text-align: center;
     cursor: pointer;    
-    font-size: 18px;
+    font-size: 30px;
 }
 .search:hover {
-    background-color: red;
+    background-color: rgb(190, 4, 4);
     color: black;
 }
 .information {
@@ -110,7 +124,7 @@ h1,h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .box:hover {
-    background-color: rgb(155, 207, 255);
+    background-color: grey;
     color: black;
 }
 #stat {
@@ -157,6 +171,12 @@ h1,h2 {
     display: flex;
     justify-content: space-between;
     margin-right: 30px;
-    margin-left: 30px;
-    color: red;
+    margin-left: 30px;    
+}
+.sm {
+    color: rgb(190, 4, 4);
+}
+#voiture {
+    height: 300px;
+    width: auto;
 }
